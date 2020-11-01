@@ -12,5 +12,8 @@ class SnakeActivity : AppCompatActivity() {
         val bord = Bord()
         val adapter = ImageListAdapter(this, R.layout.item_list, bord.bord)
         gameBord.adapter = adapter
+        for (pos in bord.snake){
+
+        }
     }
 }

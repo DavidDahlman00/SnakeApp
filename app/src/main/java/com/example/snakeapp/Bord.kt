@@ -16,6 +16,6 @@ class Bord() {
     }
 
     fun makeSnake(){
-
+        snake.add(Position(500))
     }
 }
